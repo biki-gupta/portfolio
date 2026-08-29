@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Biki Kumar Gupta — Computer Science & Engineering student specializing in AI/ML.">
+<title>Biki Kumar Gupta | AI/ML Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="aurora-wash"></div>
+<canvas id="neuralBg" aria-hidden="true"></canvas>
+<div class="bg-grid"></div>
+
+<button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+<header class="topbar">
+  <a class="logo" href="#home">BK<span>.</span></a>
+  <nav id="siteNav">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certs</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="resume-top" href="Bikicv.pdf" target="_blank">Resume <span>↓</span></a>
+</header>
+
+<main>
+<section id="home" class="home">
+  <div class="profile-ring">
+    <div class="profile-inner">
+      <img src="profile pic.png" alt="Biki Kumar Gupta profile photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="avatar-fallback" aria-hidden="true">BK</div>
+    </div>
+  </div>
+
+  <p class="hello">Hello, I'm</p>
+  <h1>Biki Kumar Gupta</h1>
+  <h2>Aspiring <span>AI/ML Engineer</span></h2>
+
+  <div class="role-pill">✦ &nbsp; Computer Science & Engineering &nbsp; | &nbsp; AI/ML</div>
+
+  <p class="intro">Passionate about problem-solving, artificial intelligence, data analytics,<br class="desktop"> and building impactful technology solutions.</p>
+
+  <div class="terminal-ticker" aria-hidden="true">
+    <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+    <span class="ticker-text" id="tickerText">&gt; analyzing doctor-patient transcript...</span>
+  </div>
+
+  <div class="hero-buttons">
+    <a class="button primary" href="#projects">View Projects</a>
+    <a class="button soft" href="#contact">Contact Me</a>
+    <a class="button outline" href="Bikicv.pdf" target="_blank">⇩ &nbsp; Resume</a>
+  </div>
+
+  <div class="social-row">
+    <a href="https://github.com/biki-gupta" target="_blank" aria-label="GitHub">⌘</a>
+    <a href="https://www.linkedin.com/in/biki-gupta-736752381/" target="_blank" aria-label="LinkedIn">in</a>
+    <a href="mailto:bikigupta753@gmail.com" aria-label="Email">✉</a>
+  </div>
+
+  <div class="quick-wrap">
+    <div class="quick-title">QUICK NAVIGATE</div>
+    <div class="quick-grid">
+      <a href="#about"><b class="purple">♙</b><small>ABOUT ME</small></a>
+      <a href="#skills"><b class="blue">‹›</b><small>SKILLS</small></a>
+      <a href="#skills"><b class="green">⚒</b><small>TOOLS</small></a>
+      <a href="#projects"><b class="orange">▣</b><small>PROJECTS</small></a>
+      <a href="#education"><b class="pink">⌁</b><small>EDUCATION</small></a>
+      <a href="#certifications"><b class="violet">♙</b><small>CERTIFICATIONS</small></a>
+      <a href="#achievements"><b class="red">✣</b><small>ACHIEVEMENTS</small></a>
+      <a href="#contact"><b class="teal">✉</b><small>CONTACT</small></a>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#about">⌄</a>
+</section>
+
+<section id="about" class="content-section reveal">
+  <div class="section-label">01 / ABOUT ME</div>
+  <h2>Building with <span>curiosity</span> and code.</h2>
+  <div class="about-grid">
+    <div class="about-card">
+      <div class="about-avatar">
+        <img src="profile pic.png" alt="Biki Kumar Gupta" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="avatar-fallback small" aria-hidden="true">BK</div>
+      </div>
+      <div><h3>Biki Kumar Gupta</h3><p>B.Tech CSE • AI/ML Focus</p></div>
+      <div class="stats">
+        <span><strong data-count="8.16">0</strong>CGPA</span>
+        <span><strong data-count="3">0</strong>AI/ML Projects</span>
+        <span><strong data-count="2025" data-static="1">2025</strong>B.Tech Started</span>
+      </div>
+    </div>
+    <div class="about-copy">
+      <p>I'm a Computer Science and Engineering student at Lovely Professional University, currently holding an 8.16 CGPA. I'm drawn to understanding systems end to end, which is reflected in the range of my projects — from a C++ grading application to an Arduino-based piano built around a servo motor.</p>
+      <p>Alongside coursework, I've been building a solid foundation in data structures, object-oriented programming, and database systems, and have completed certifications in Python, AI fundamentals, and data science. I've also contributed to a community development initiative, which strengthened my collaboration and communication skills outside a technical setting.</p>
+      <div class="chips"><span>Problem Solving</span><span>Team Collaboration</span><span>Adaptability</span><span>Time Management</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="content-section reveal">
+  <div class="section-label">02 / SKILLS</div>
+  <h2>My technical <span>toolkit.</span></h2>
+  <div class="cards four">
+    <article><i class="c1">⌥</i><h3>Languages</h3><p>HTML • CSS • JavaScript • C</p></article>
+    <article><i class="c2">∿</i><h3>Data & Visualization</h3><p>NumPy • Pandas • Matplotlib</p></article>
+    <article><i class="c3">⌬</i><h3>Databases & Tools</h3><p>MongoDB • Git • GitHub • Figma</p></article>
+    <article><i class="c8">◈</i><h3>AI / ML Focus</h3><p>Python • NLP • Transformers • ML workflows</p></article>
+  </div>
+</section>
+
+<section id="projects" class="content-section reveal">
+  <div class="section-label">03 / PROJECTS</div>
+  <h2>Selected <span>work.</span></h2>
+  <div class="project-grid">
+    <article class="project"><em>01</em><small>APR 2026</small><h3>AI Clinical Consultation Assistant & Quality Assurance Tool</h3><p>Ambient AI assistant that analyzes doctor-patient conversations, monitors reported symptoms and physician responses, and performs automated clinical gap analysis.</p><div class="tags"><b>NLP</b><b>LLM</b><b>AI</b><b>Python</b></div></article>
+    <article class="project"><em>02</em><small>SEP — OCT 2025</small><h3>AI-Powered Resume Analyzer & Job Recommendation System</h3><p>AI-powered web application using NLP and Transformer-based semantic similarity to match candidate profiles with relevant job descriptions.</p><div class="tags"><b>Python</b><b>NLP</b><b>FastAPI</b><b>React</b></div></article>
+    <article class="project"><em>03</em><small>JUN — JUL 2026</small><h3>Student Performance Prediction System</h3><p>Machine learning system using attendance, academic and demographic data with model comparison and an interactive Streamlit dashboard.</p><div class="tags"><b>Python</b><b>ML</b><b>XGBoost</b><b>Streamlit</b></div></article>
+  </div>
+</section>
+
+<section id="education" class="content-section reveal">
+  <div class="section-label">04 / EDUCATION</div>
+  <h2>Learning, experimenting, <span>growing.</span></h2>
+  <div class="education-list">
+    <article><span>2025 — PRESENT</span><div><h3>Lovely Professional University</h3><p>Bachelor of Technology — Computer Science and Engineering</p><strong>CGPA: 8.16</strong></div></article>
+    <article><span>2023 — 2025</span><div><h3>DAV Public School</h3><p>Higher Secondary Education</p><strong>87.6%</strong></div></article>
+    <article><span>2022 — 2023</span><div><h3>Rotary Public School</h3><p>Secondary Education</p><strong>90%</strong></div></article>
+  </div>
+  </div>
+</section>
+
+<section id="certifications" class="content-section reveal">
+  <div class="section-label">◈ CERTIFICATIONS</div>
+  <div class="cert-grid">
+    <article class="cert-card featured">
+      <div class="cert-icon">◈</div>
+      <div class="cert-org">INFOSYS SPRINGBOARD</div>
+      <h3>Data Structure and Algorithm using Python</h3>
+      <span class="cert-date">Jan 2026</span>
+      <a class="cert-link" href="DSA with Python.pdf" target="_blank" rel="noopener">View Certificate ↗</a>
+    </article>
+    <article class="cert-card">
+      <div class="cert-icon">◈</div>
+      <div class="cert-org">INFOSYS SPRINGBOARD</div>
+      <h3>Introduction to Artificial Intelligence</h3>
+      <span class="cert-date">Mar 2026</span>
+      <a class="cert-link" href="Introduction to artificial intelligence.pdf" target="_blank" rel="noopener">View Certificate ↗</a>
+    </article>
+  </div>
+</section>
+
+<section id="achievements" class="content-section reveal">
+  <div class="section-label">05 / ACHIEVEMENTS</div>
+  <h2>Milestones <span>along the way.</span></h2>
+  <ul class="achievements-list standalone">
+    <li>Solved more than <strong>150</strong> programming problems on online coding platforms during regular practice and learning.</li>
+    <li>Skilled in HTML, CSS, JavaScript, and MongoDB through hands-on projects.</li>
+    <li>Strong problem-solving and debugging abilities with a focus on web development and AI/ML.</li>
+  </ul>
+</section>
+
+<section id="contact" class="content-section contact reveal">
+  <div class="contact-card">
+    <div class="section-label">06 / CONTACT</div>
+    <h2>Let's build something <span>intelligent.</span></h2>
+    <p>Have an idea, project or opportunity? I'd be happy to connect.</p>
+    <a class="big-email" href="mailto:bikigupta753@gmail.com">bikigupta753@gmail.com ↗</a>
+    <div class="contact-links"><a href="tel:+919861847677">+91 9861847677</a><a href="https://github.com/biki-gupta" target="_blank">GitHub</a><a href="https://www.linkedin.com/in/biki-gupta-736752381/" target="_blank">LinkedIn</a></div>
+  </div>
+</section>
+</main>
+<footer>© 2026 Biki Kumar Gupta <span>Designed & built with curiosity.</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
